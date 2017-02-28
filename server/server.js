@@ -21,7 +21,7 @@ var multer = require('multer');
 var md5file = require('md5-file');
 var path = require('path');
 var im = require('imagemagick');
-
+var passport = require('passport');
 var express = require('express');
 
 var db;
